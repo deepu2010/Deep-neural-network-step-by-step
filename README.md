@@ -43,7 +43,7 @@ This project is part of my deep learning specialization course from deeplearning
 2. Cost function: **Cross entropy loss functon**
 3. Number of hidden units: Depending on the requirement
 
- 
+
 
 #### Output Achieved
 
