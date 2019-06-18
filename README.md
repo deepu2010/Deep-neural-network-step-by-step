@@ -47,15 +47,15 @@ This project is part of my deep learning specialization course from deeplearning
 
 #### Output Achieved
 
-![Alt Text](https://raw.githubusercontent.com/deepu2010/Planar-data-classification/master/Hidden%20layer%205.JPG)
+Training accuracy: 0.98
+
+Test accuracy: 0.8
 
 #### Key activities included in this project
 
-1. Before building my own neural network, I have built a logistic regression machine learning model but I was able to achieve only **47% accuracy**
+1. I built a neural network model with two hidden layer with 4 units, the accuracy is much improved. **Achieved accuracy = 72%**
 
-2. Then, I built a neural network model with a single hidden layer with 4 units, the accuracy is much improved. **Achieved accuracy = 90%**
-
-3. Using trail and error method, I tried adding hidden layers from 1 to 20, based on those observations, I found my model with 5 hidden layers works the best. **Achieved accuracy = 91.5%**
+2. Using trail and error method, I tried adding hidden layers from 1 to 20, based on those observations, I found my model with 4 hidden layers works the best. **Achieved accuracy = 80%**
 
 
 
