@@ -12,7 +12,7 @@ The key objective of this project is to develop an intuition of the over all str
   * We give you the ACTIVATION function (relu/sigmoid).
   * Combine the previous two steps into a new [LINEAR->ACTIVATION] forward function.
   * Stack the [LINEAR->RELU] forward function L-1 time (for layers 1 through L-1) and add a [LINEAR->SIGMOID] at the end (for the final layer  LL ). This gives you a new L_model_forward function.
-* Compute the loss.
+  * Compute the loss.
   * Implement the backward propagation module (denoted in red in the figure below).
   * Complete the LINEAR part of a layer's backward propagation step.
   * We give you the gradient of the ACTIVATE function (relu_backward/sigmoid_backward)
