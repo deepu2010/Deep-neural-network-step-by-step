@@ -1,8 +1,15 @@
 # Deep-neural-network-step-by-step
-In this project, I have built a deep neural network including forward propagation and backward propagation without using any libraries.
+In this project, I have built a deep neural network including forward propagation and backward propagation without using any libraries. The key goal of this project is to develop an intuition of the over all structure of a neural network. 
 
+**The key objectives in this notebook is to:**
 
-The key objective of this project is to develop an intuition of the over all structure of a neural network. 
+  * Construct neural network without using any libraries
+    * Compute forward propogation
+    * Compute Loss
+    * Compute backward propogaton
+    * Update weights
+  * Build a deep learning model to classify cat images.
+  * Compare the accuracy of deep learning model with other models built using libraries.
 
 ### The various steps involved in building deep neural networks include:
 
@@ -27,31 +34,16 @@ The key objective of this project is to develop an intuition of the over all str
 
 This project is part of my deep learning specialization course from deeplearning.ai. 
 
-**The key objectives in this notebook is to:**
+#### Deep Learning Model details:
 
-  * Construct neural network without using any libraries
-    * Compute forward propogation
-    * Compute Loss
-    * Compute backward propogaton
-    * Update weights
-  * Build a deep learning model to classify cat images.
-  * Compare the accuracy of deep learning model with other models built using libraries.
+1. My model can be represented as,
+
+[LINEAR -> RELU] × (L-1) -> LINEAR -> SIGMOID
+
+2. Cost function: **Cross entropy loss functon**
+3. Number of hidden units: Depending on the requirement
+
  
-
-
-#### Neural Network Built:
-
-During my coursework, I have learnt a general methodology to build a Neural Network. The general methodology is as follows:
-
-1. Define the neural network structure ( # of input units,  # of hidden units, etc). 
-2. Initialize the model's parameters
-3. Loop:
-    - Implement forward propagation
-    - Compute loss
-    - Implement backward propagation to get the gradients
-    - Update parameters (gradient descent)
-
-![Alt Text](https://raw.githubusercontent.com/deepu2010/Planar-data-classification/master/planar%20data.JPG)
 
 #### Output Achieved
 
@@ -65,13 +57,6 @@ During my coursework, I have learnt a general methodology to build a Neural Netw
 
 3. Using trail and error method, I tried adding hidden layers from 1 to 20, based on those observations, I found my model with 5 hidden layers works the best. **Achieved accuracy = 91.5%**
 
-#### Deep Learning Model details:
 
-1. My model can be represented as,
-
-[LINEAR -> TANH] × (L-1) -> LINEAR -> SIGMOID
-
-2. Cost function: **Cross entropy loss functon**
-3. Number of hidden units: 5
 
 
